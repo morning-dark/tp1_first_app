@@ -1,16 +1,47 @@
-# tp1_first_app
+# TP1: First Flutter Application
 
-A new Flutter project.
+## Project Description
 
-## Getting Started
+**TP1: First Flutter Application** is an introductory practical project designed to introduce the fundamentals of mobile and cross-platform application development using the **Flutter** framework and the **Dart** language.
 
-This project is a starting point for a Flutter application.
+This project serves as a starting point for learning the fundamental concepts of Flutter, such as:
 
-A few resources to get you started if this is your first Flutter project:
+- The basic structure of a Flutter application.
+- The use of widgets (such as ```MaterialApp``` and ```Scaffold```).
+- The creation of custom widgets (such as ```GuardianContainer```).
+- Managing the user interface and visual components.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Key Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Base Application:** Minimal structure of a functional Flutter application.
+- **Custom Widget:** Implementation of a ```GuardianContainer``` to display a background with a color gradient.
+- **Cross-Platform:** The code is ready to be deployed on Android, iOS, Web, and Desktop.
+
+## Technologies Used
+
+- **Framework:** Flutter
+- **Language:** Dart
+- **Target Platforms:** Android, iOS, Web, Windows, macOS, Linux
+
+## Installation and Runtime
+
+### Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started)
+- A code editor (VS Code, Android Studio) with the Flutter plugin.
+
+### Steps
+
+1. **Clone the Repository:**
+```bash
+git clone https://github.com/morning-dark/tp1_first_app.git
+cd tp1_first_app
+```
+2. **Install the Dependencies:**
+```bash
+flutter pub get
+```
+3. **Run the Application:** Connect a device or start an emulator, then run:
+```bash
+flutter run
+```
