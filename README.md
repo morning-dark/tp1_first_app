@@ -45,3 +45,15 @@ flutter pub get
 ```bash
 flutter run
 ```
+## Project Structure
+
+```bash
+tp1_first_app/
+├── android/                      # Android build files
+├── ios/                         # iOS build files
+├── lib/                         # Application's Dart source code
+│   ├── main.dart                # Application entry point
+│   └── gardient_container.dart  # Custom widget for the gradient
+├── pubspec.yaml                 # Project dependencies and metadata
+└── ... (other platform folders)
+```
